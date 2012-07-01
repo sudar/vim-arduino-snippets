@@ -1,0 +1,24 @@
+# setup()
+snippet setup
+	void setup()
+	{
+		${1}
+	}
+snippet loop
+	void loop()
+	{
+		${1}
+	}
+# digitalWrite - High
+snippet dwh
+	digitalWrite(${1:13},${2:HIGH});
+# digitalWrite - Low
+snippet dwl
+	digitalWrite(${1:13},${2:LOW});
+# pinMode - Input 
+snippet pmi
+	pinMode(${1:13},${2:INPUT});
+# pinMode - Output
+snippet pmo
+	pinMode(${1:13},${2:OUTPUT});
+# TODO - add analog read/write digital read
