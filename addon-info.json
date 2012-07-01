@@ -1,0 +1,12 @@
+{
+  "name" : "vim-arduino-snippets",
+  "author" : "Sudar <http://sudarmuthu.com>",
+  "repository" : {"type": "git", "url": "git://github.com/sudar/vim-arduino-snippets.git"},
+  "dependencies" : {
+    "snipmate": {
+      "type": "git",
+      "url": "https://github.com/garbas/vim-snipmate.git"
+    }
+  },
+  "description" : "Vim snippets file for Arduino"
+}
