@@ -13,6 +13,7 @@ Unfortunately there are many ways to how to install vim plugins. If you don't se
 Using [Vundle](https://github.com/gmarik/vundle)
 -------------
 
+```VimL
     Install snipmate dependencies:
     Bundle "MarcWeber/vim-addon-mw-utils"
     Bundle "tomtom/tlib_vim"
@@ -25,7 +26,7 @@ Using [Vundle](https://github.com/gmarik/vundle)
     Bundle "sudar/vim-arduino-snippets"
 
     And :BundleInstall
-    
+```
 Contribution
 -------------
 
