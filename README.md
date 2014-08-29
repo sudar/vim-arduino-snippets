@@ -30,7 +30,7 @@ Using [Vundle](https://github.com/gmarik/vundle)
 Contribution
 -------------
 
-If you would like to contribute to this project, then just fork it in github and send a pull request. 
+If you would like to contribute to this project, then just fork it in github and send a pull request. If you are not familiar with git or github, then you can use this guide to [understand how to fork and send pull request](http://sudarmuthu.com/blog/contributing-to-project-hosted-in-github).
 
 License
 -------------
