@@ -5,7 +5,7 @@
   "dependencies" : {
     "snipmate": {
       "type": "git",
-      "url": "https://github.com/garbas/vim-snipmate.git"
+      "url": "https://github.com/SirVer/ultisnips"
     }
   },
   "description" : "Vim snippets file for Arduino"

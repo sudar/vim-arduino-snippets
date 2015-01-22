@@ -1,0 +1,59 @@
+# Vim snippets for Arduino
+#
+# http://hardwarefun.com
+#
+#  Copyright 2013 Sudar Muthu  (http://sudarmuthu.com)
+#  ------------------------------------------------------------------------------
+#  "THE BEER-WARE LICENSE" (Revision 42):
+#  Sudar <http://sudarmuthu.com> wrote this file.
+#  As long as you retain this notice you can do whatever you want with this stuff.
+#  If we ever meet and you are overcome with gratitude,
+#  feel free to express your feelings via beverage :)
+#  ------------------------------------------------------------------------------
+
+# TODO - add analog read/write
+
+extends cpp
+
+#  ------------------------------------------------------------------------------
+# Setup and loop
+#  ------------------------------------------------------------------------------
+snippet setup "setup()"
+	void setup()
+	{
+		${1}
+	}
+endsnippet
+
+snippet loop "loop()"
+	void loop()
+	{
+		${1}
+	}
+endsnippet
+
+#  ------------------------------------------------------------------------------
+# Digital Read and write
+#  ------------------------------------------------------------------------------
+snippet dwh "digitalWrite - High"
+	digitalWrite(${1:13},${2:HIGH});
+endsnippet
+
+snippet dwl "digitalWrite - Low"
+	digitalWrite(${1:13},${2:LOW});
+endsnippet
+
+snippet dr "digitalRead"
+	digitalRead(${1:13});
+endsnippet
+
+#  ------------------------------------------------------------------------------
+# pinMode function
+#  ------------------------------------------------------------------------------
+snippet pmi "pinMode - Input"
+	pinMode(${1:13},${2:INPUT});
+endsnippet
+
+snippet pmo "pinMode - Output"
+	pinMode(${1:13},${2:OUTPUT});
+endsnippet

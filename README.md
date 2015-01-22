@@ -1,31 +1,26 @@
 vim-arduino-snippets
 ====================
 
-This repository contains snippets files for Arduino, for the famous [snipmate](https://github.com/garbas/vim-snipmate) plugin for Vim.
+This repository contains snippets files for Arduino, for the famous [UltiSnips](https://github.com/SirVer/ultisnips) plugin for Vim.
 
 How to install
 -------------
 Unfortunately there are many ways to how to install vim plugins. If you don't see your preferred way of installation plugins please consider updating this section. Basically, installation consists of 2 simple steps:
 
-- Install [vim-snipmate](https://github.com/garbas/vim-snipmate)
+- Install [ultisnips](https://github.com/SirVer/ultisnips)
 - Install vim-arduino-snippets
 
 Using [Vundle](https://github.com/gmarik/vundle)
 -------------
 
 ```VimL
-    Install snipmate dependencies:
-    Bundle "MarcWeber/vim-addon-mw-utils"
-    Bundle "tomtom/tlib_vim"
-    Bundle "snipmate-snippets"
-
-    Install snipmate:
-    Bundle "garbas/vim-snipmate"
+    " Install snipmate:
+    Plugin "SirVer/ultisnips"
 
     Install :
-    Bundle "sudar/vim-arduino-snippets"
+    Plugin "sudar/vim-arduino-snippets"
 
-    And :BundleInstall
+    And :PluginInstall
 ```
 Contribution
 -------------
