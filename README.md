@@ -15,10 +15,10 @@ Using [Vundle](https://github.com/gmarik/vundle)
 
 ```VimL
     " Install snipmate:
-    Plugin "SirVer/ultisnips"
+    Plugin 'SirVer/ultisnips'
 
     Install :
-    Plugin "sudar/vim-arduino-snippets"
+    Plugin 'sudar/vim-arduino-snippets'
 
     And :PluginInstall
 ```
